@@ -1,6 +1,5 @@
 package day04_xpath_CssSelector_relativeLocator;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,7 +12,7 @@ public class C03_RelativeLocator {
 
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("Webdriver.chrome.driver","KurulumDosyalari/chromedriver");
+        System.setProperty("Webdriver.chrome.driver", "src/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
